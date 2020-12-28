@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #544837;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+button {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.title {
+  color: #2F281E;
+}
+
+.container {
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 78px;
+}
+
+.menu {
+  margin-left: auto;
+}
+.menu__list {
+  display: flex;
+}
+.menu__list-item + .menu__list-item {
+  margin-left: 24px;
+}
+.menu__list-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #2F281E;
+  text-decoration: none;
+}
+
+.user-nav {
+  margin-left: 52px;
+}
+.user-nav__link {
+  color: #173A56;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 11px 23px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #BCD0E5;
+}
+.user-nav__link + .user-nav__link {
+  margin-left: 14px;
+  border-color: transparent;
+  background-color: #FF9900;
+  color: #FFFFFF;
+}
+
+
+/* top */
+.top {
+  
+}
+.top__inner {
+  padding: 133px 0 80px;
+  background-image: url('../images/top-bg.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.top__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  max-width: 518px;
+  margin-bottom: 30px;
+}
+.top__text {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  max-width: 460px;
+  margin-bottom: 45px;
+}
+.top__btn {
+  color: #FFFFFF;
+  background-color: #FF9900;
+  padding: 14px 41px;
+  margin-right: 30px;
+}
+.top__link {
+  color: #FF9900;
+  line-height: 24px;
+  display: inline-block;
+  font-weight: 600;
+  padding-left: 25px;
+  position: relative;
+}
+.top__link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 17px;
+  height: 19px;
+  background-image: url('../images/play-icon.svg');
+}
