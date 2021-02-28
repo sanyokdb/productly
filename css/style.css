@@ -410,8 +410,66 @@ button {
   line-height: 0;
   background-color: #EFEFEF;
   padding: 0;
-  margin: 0;
+  margin: 0 5px;
 }
 .slick-dots .slick-active button {
   background-color: #ff9900;
+}
+
+
+/* Footer */
+.footer {
+}
+.footer__inner {
+  padding: 100px 0;
+  border-top: 1px solid rgba(188, 208, 229, 0.496913);
+  display: flex;
+  justify-content: space-between;
+}
+.footer__menu {
+  width: 135px;
+}
+.footer__menu-title,
+.footer__form-text {
+  margin-bottom: 35px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2F281E;
+}
+.footer__menu-list {
+  list-style: none;
+}
+.footer__menu-item {
+}
+.footer__menu-link {
+  font-size: 16px;
+  line-height: 35px;
+  color: #544837;
+  text-decoration: none;
+}
+.footer__form {
+  width: 330px;
+}
+.footer__form-input {
+  display: block;
+  width: 100%;
+  border: 1px solid #BCD0E5;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 0 16px;
+  margin-bottom: 21px;
+  height: 48px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+.footer__form-input::placeholder {
+  color: #BCD0E5;
+}
+.footer__form-btn {
+  background-color: #FF9900;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 8px 15px 7px;
+  border: none;
 }
