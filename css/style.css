@@ -41,7 +41,7 @@ button {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  height: 78px;
+  padding-top: 25px;
 }
 
 .menu {
@@ -59,6 +59,24 @@ button {
   line-height: 28px;
   color: #2f281e;
   text-decoration: none;
+  position: relative;
+  padding: 4px 0;
+}
+.menu__list-link::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  height: 3px;
+  width: 0%;
+  opacity: 0.6;
+  background-color: #FF9900;
+  transition: all 0.3s;
+}
+.menu__list-link:hover::after {
+  width: 100%;
+  opacity: 1;
 }
 
 .user-nav {
