@@ -11,3 +11,12 @@
     padding-top: 30px;
   }
 }
+
+@media(max-width: 524px){
+  .header__inner {
+    display: block;
+  }
+  .menu__list {
+    display: none;
+  }
+}
